@@ -1,10 +1,11 @@
 before_script:
-  - npm install ; npm install -g jest
-script: jest test
+  - npm install ; npm install -g gulp
+script: gulp test
 language: node_js
 env:
   - port=8080
 node_js:
+  - "6.14.5"
   - "5.1"
   - "4"
 
