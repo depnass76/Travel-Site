@@ -1,5 +1,5 @@
 {
-  "name": "se491_capstone-master",
+  "name": "Travel-Site",
   "version": "1.0.0",
   "description": "",
   "main": "src/app.js",
@@ -27,7 +27,7 @@
     "jest": "^23.6.0",
     "supertest": "^4.0.2"
   },
-  "author": "",
+  "author": "Mohammed Reda Aithammouda",
   "license": "ISC",
   "directories": {
     "test": "tests"
