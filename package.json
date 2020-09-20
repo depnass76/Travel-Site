@@ -5,7 +5,8 @@
   "main": "src/app.js",
   "scripts": {
     "start": "node src/app.js",
-    "test": "jest",
+    "postinstall": "gulp build",
+    "test": "gulp test",
     "test:mocked": "jest trip.test.js",
     "test:watch": "jest --watch"
   },
