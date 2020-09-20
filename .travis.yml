@@ -1,9 +1,16 @@
-before_script:
-  - npm ci 
 language: node_js
-env:
-  - port=8080
 node_js:
-  - "5.1"
-  - "4"
+  - "stable"
+
+cache: 
+  directories:
+    "node_modules"
+
+before_install:
+  - npm install --save-dev jest@23.6.0
+
+install:
+  - npm install
+script:
+  - npm test
 
