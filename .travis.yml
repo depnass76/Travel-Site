@@ -1,6 +1,5 @@
 before_script:
-  - npm install ; npm install -g jest
-script: jest 
+  - npm ci 
 language: node_js
 env:
   - port=8080
