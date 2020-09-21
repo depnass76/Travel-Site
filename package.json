@@ -1,21 +1,27 @@
 {
-  "name": "Travel-Site",
+  "name": "travel-app",
   "version": "1.0.0",
   "description": "",
-  "main": "./src/app.js",
-  "scripts": {
-    "test": "jest",
-    "start": "node ./src/app.js"
-  },
+  "main": "src/app.js",
   "dependencies": {
     "express": "^4.17.1",
-    "nodemon": "^1.18.5",
+    "hbs": "^4.1.1",
+    "jquery": "^3.5.1",
+    "nodemon": "^1.19.4",
     "request": "^2.88.0",
-    "jquery": "^3.5.1"
+    "validator": "^13.1.1"
   },
   "devDependencies": {
-    "jest": "^23.6.0"
+    "jest": "^23.6.0",
+    "supertest": "^3.4.1"
+  },
+  "scripts": {
+    "start": "node src/app.js",
+    "test": "jest"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "directories": {
+    "test": "tests"
+  }
 }
